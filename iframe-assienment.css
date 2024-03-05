@@ -11,6 +11,7 @@ header{
     text-align: center;
 }
 .box{
+    padding-top: 20px;
     height: 500px;
     width: 1040px;
     padding: auto;
@@ -22,7 +23,6 @@ header{
 }
 
 .text{
-    text-align: center;
     text-decoration: none;
     font-family: Verdana;
     align-items: center;
@@ -75,6 +75,7 @@ iframe{
     width: 600px;
     
 }
+
 .box1-1{
         height: 60px;
         width: 300px;
@@ -98,9 +99,10 @@ iframe{
 }
 .box1-3{
     height: 60px;
-    width: 300px;
+    width: 250px;
     margin: auto;
     padding: auto;
+    padding-left: 50px;
     margin-top: 20px;
     align-items: center;
     border: 3px solid rgb(213, 235, 15);
@@ -121,3 +123,118 @@ iframe{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #ebe8e8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #6046ff;
+  border-right: none;
+  padding: 15px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.searchTerm:focus{
+  color: #6046ff;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #6046ff;
+  background: #6046ff;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 20.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+.thubnel1{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+	top: 175px;
+  left: 200px;
+  border-radius: 10px;
+  
+}
+
+.thubnel2{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+	top: 285px;
+  left: 200px;
+  border-radius: 10px;
+  
+}
+.thubnel3{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+	top: 390px;
+  left: 200px;
+  border-radius: 10px;
+}
+
+.thubnel4{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+	top: 495px;
+  left: 200px;
+  border-radius: 10px;
+}
+
+.heading1{
+  height: 70px;
+  width: 610px;
+  border: 1px solid whitesmoke;
+  background-color: #fff;
+  opacity: 0.4;
+  position: absolute;
+	top: 520px;
+  left: 520px;
+  text-align: center;
+  color: black;
+
+}
